@@ -1,0 +1,129 @@
+{
+  "testUser": {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "validId": {
+    "id": 1
+  },
+  "invalidId": {
+    "id": 2
+  },
+  "validUserName": {
+    "username": "Bret"
+  },
+  "invalidUserName": {
+    "username": "Bret2"
+  },
+  "validPhone": {
+    "phone": "1-770-736-8031 x56442"
+  },
+  "invalidPhone": {
+    "phone": "111-111-111 x09125"
+  },
+  "validAddress": {
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    }
+  },
+  "invalidAddress": {
+    "address": {
+      "street": "Light Kulas",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    }
+  },
+  "validCompany": {
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "invalidCompany": {
+    "company": {
+      "name": "Crona-Romaguera",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "validIdAndName": {
+    "id": 1,
+    "username": "Bret"
+  },
+  "validIdAndInvalidName": {
+    "id": 1,
+    "username": "Breta"
+  },
+  "validIdAndNameAndPhone": {
+    "id": 1,
+    "username": "Bret",
+    "phone": "1-770-736-8031 x56442"
+  },
+  "validIdAndNameAndInvalidPhone": {
+    "id": 1,
+    "username": "Bret",
+    "phone": "1-770-736-8031"
+  },
+  "validIdAndNameAndPhoneAndAddress": {
+    "id": 1,
+    "username": "Bret",
+    "phone": "1-770-736-8031 x56442",
+    "address": {
+      "street": "Light Kulas",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    }
+  },
+  "validIdAndNameAndPhoneAndInvalidAddress": {
+    "id": 1,
+    "username": "Bret",
+    "phone": "1-770-736-8031 x56442",
+    "address": {
+      "street": "S",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    }
+  }
+}
