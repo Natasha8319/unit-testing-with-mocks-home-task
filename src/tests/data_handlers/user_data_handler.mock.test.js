@@ -1,9 +1,6 @@
 import axios from 'axios';
-jest.mock('axios');
 import UserDataHandler from '../../data_handlers/user_data_handler';
-import testData from '../../../data/users.json';
-import serchParamsTestData from '../../../data/isMatchingAllSearchParamsTestData.json';
-import findUsersTestData from '../../../data/findUsersTestData.json';
+jest.mock('axios');
 describe('loadUsers() method check', () => {
   let userDataHadlerObject;
   beforeEach(() => {
