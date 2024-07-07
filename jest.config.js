@@ -8,6 +8,7 @@ const config = {
   transform: {
     '^.+\\.(js|jsx)?$': 'babel-jest',
   },
+  reporters: ['default', 'jest-html-reporters'],
 };
 
 module.exports = config;
