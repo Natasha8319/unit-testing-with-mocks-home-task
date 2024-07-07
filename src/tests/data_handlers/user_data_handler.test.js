@@ -101,7 +101,7 @@ describe('user_data_handler test suite', () => {
         testDescription: 'searchTestData.invalidPhone',
       },
       // {
-      //   new test raw2
+      //   new test raw3
       //   user: searchTestData.testUser,
       //   searchParams: searchTestData.validAddress,
       //   expectedResult: true,
