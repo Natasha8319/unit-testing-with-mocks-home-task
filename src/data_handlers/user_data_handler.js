@@ -33,8 +33,7 @@ class UserDataHandler {
    * @memberof UserDataHandler
    */
   getUserEmailsList() {
-    // eslint-disable-next-line eqeqeq
-    if (this.users.length == 0) throw new Error('No users loaded!');
+    if (this.users.length === 0) throw new Error('No users loaded!');
     const arrayOfEmails = this.users.map((user) => user.email);
     const listOfUSerEmails = arrayOfEmails.join(';');
     return listOfUSerEmails;
@@ -64,8 +63,7 @@ class UserDataHandler {
       if (user[searchParam] !== searchParamsObject[searchParam]) {
         isMatching = false;
       }
-      // eslint-disable-next-line eqeqeq
-      if (isMatching == false) break;
+      if (isMatching === false) break;
     }
     return isMatching;
   }
