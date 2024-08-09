@@ -45,9 +45,9 @@ class UserDataHandler {
    * @return {Number} current number of users in class instance
    * @memberof UserDataHandler
    */
-  getNumberOfUsers() {
-    return this.users.length;
-  }
+  // getNumberOfUsers() {
+  //   return this.users.length;
+  // }
 
   /**
    *
